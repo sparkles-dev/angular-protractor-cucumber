@@ -9,6 +9,11 @@ Demonstrates testing of an [Angular][1] app with [Protractor][2] and [Cucumber][
 $ yarn e2e -- --baseUrl https://angular.io
 ```
 
+Lightning Talk proposal for #ReactiveConf 2017:
+https://gist.github.com/dherges/0e2330e9d043a8316961c0709d2e1222
+
+
+
 #### Idea and tech stack
 
 Protractor is used as the primary testing framework.
@@ -17,6 +22,18 @@ It launches a web browser and allows remote control of the web browser.
 Then, [cucumber is plugged-in to protractor][4] and [TypeScript][5] is added as `onPrepare` hook.
 Test specifications are written in `.feature` files,
 expressing each `Scenario` with the `Given`, `When`, `Then` keywords.
+
+```gherkin
+Feature: Search
+  As a developer using Angular
+  I need to look-up classes and guidelines
+  So that I can concentrate on building awesome applications
+
+  Scenario: Type in a search-term
+    Given I am on the angular.io site
+    When I type "foo" into the search input field
+    Then I should see some results in the search overlay
+```
 
 Scenarios are turned into automated browser actions in so-called step definitions.
 Step definitions are written in TypeScript and use protractor's API to control the browser.
@@ -45,8 +62,8 @@ defineSupportCode(({Given, When, Then, Before}) => {
 
   Then('I should see some results in the search overlay',
     () => app.getSearchResultItems()
-      .then((value) => {
-        expect(value.length).to.be.greaterThan(2);
+      .then(elems => {
+        expect(elems.length).to.be.greaterThan(0);
       }));
 });
 ```
@@ -88,8 +105,6 @@ export class AppPage {
 
 
 
-
-
 [1]: https://angular.io/
 [2]: www.protractortest.org
 [3]: https://cucumber.io
@@ -99,11 +114,21 @@ export class AppPage {
 [7]: http://chaijs.com/api/bdd/
 
 
+#### Further Reading
 
-https://www.youtube.com/watch?v=prSSc4KYX0o
+Top 5 Cucumber best practices, The Codeship:
 
-https://gist.github.com/dherges/0e2330e9d043a8316961c0709d2e1222
+[![Top 5 Cucumber best practices -- The Codeship](https://img.youtube.com/vi/prSSc4KYX0o/0.jpg)](https://youtu.be/prSSc4KYX0o)
 
+Protractor styleguide – Carmen Popoviciu and Andres Dominguez, AngularConnect 2015:
+
+[![Protractor styleguide, AngularConnect 2015](https://img.youtube.com/vi/-lTGnYwnEuM/0.jpg)](https://youtu.be/-lTGnYwnEuM)
+
+[Protractor Style Guide](http://www.protractortest.org/#/style-guide)
+
+[Debugging Protractor](http://www.protractortest.org/#/debugging) (pausing a browser, taking snapshots, and more...)
+
+[Protractor API](http://www.protractortest.org/#/api)
 
 
 
