@@ -1,8 +1,13 @@
+import { expect } from 'chai';
 import { defineSupportCode } from 'cucumber';
 import { AppPage } from './app.po';
 
-defineSupportCode(({Given, When, Then}) => {
-  const app = new AppPage();
+defineSupportCode(({Given, When, Then, Before}) => {
+  let app: AppPage;
+
+  Before(() => {
+    app = new AppPage();
+  });
 
   Given('I am on the angular.io site',
     () => app.navigateTo());
@@ -11,5 +16,7 @@ defineSupportCode(({Given, When, Then}) => {
     (text: string) => app.enterSearchInput(text));
 
   Then('I should see some results in the search overlay',
-    () => app.expectSomeSearchResults());
+    () => app.getSearchResultItems()
+      .then(elems => expect(elems.length).to.be.greaterThan(0)));
+
 });

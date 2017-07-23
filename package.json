@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "Feature-driven end-to-end-testing",
   "private": true,
-  "repository": "https://github.com/spektrakel-blog/angular-protractor-cucumber",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spektrakel-blog/angular-protractor-cucumber"
+  },
   "author": "David Herges <david@spektrakel.de>",
   "license": "MIT",
   "devDependencies": {

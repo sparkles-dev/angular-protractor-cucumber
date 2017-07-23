@@ -1,4 +1,3 @@
-import { expect } from 'chai';
 import { browser, by, element, until } from 'protractor';
 
 export class AppPage {
@@ -12,13 +11,10 @@ export class AppPage {
       .sendKeys(text);
   }
 
-  public expectSomeSearchResults() {
-    const condition = until.elementLocated(by.css('.search-results'));
+  public getSearchResultItems() {
+    const condition = until.elementsLocated(by.css('.search-results .search-result-item'));
 
-    return browser.wait(condition, 5000)
-      .then((value) => {
-        expect(value).to.be.any;
-      });
+    return browser.wait(condition, 5000);
   }
 
 }
