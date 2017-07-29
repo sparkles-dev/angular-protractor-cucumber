@@ -1,0 +1,12 @@
+{
+  "pinVersions": false,
+  "semanticCommits": true,
+  "semanticPrefix": "chore: ",
+  "packages": [
+    {
+      "packagePattern": "^@angular\/.*",
+      "groupName": "angular",
+      "pinVersions": false
+    }
+  ]
+}
