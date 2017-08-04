@@ -9,9 +9,6 @@ Demonstrates testing of an [Angular][1] app with [Protractor][2] and [Cucumber][
 $ yarn e2e -- --baseUrl https://angular.io
 ```
 
-Lightning Talk proposal for #ReactiveConf 2017:
-https://gist.github.com/dherges/0e2330e9d043a8316961c0709d2e1222
-
 
 
 #### Idea and tech stack
