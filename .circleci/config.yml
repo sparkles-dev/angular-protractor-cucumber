@@ -19,7 +19,8 @@ jobs:
 
       - run:
           name: Run standalone selenium host
-            java -jar selenium-server-standalone-2.44.0.jar &
+          command: |
+            java -jar selenium-server-standalone-2.44.0.jar
           background: true
 
       # Download and cache dependencies
