@@ -12,7 +12,7 @@ jobs:
     steps:
       - checkout
 
-      - selenium
+      - selenium:
           name: Install standalone selenium host
           command: |
             wget https://selenium-release.storage.googleapis.com/2.44/selenium-server-standalone-2.44.0.jar
