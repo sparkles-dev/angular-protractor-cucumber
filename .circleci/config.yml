@@ -13,15 +13,13 @@ jobs:
       - checkout
 
       - run:
-          name: Install standalone selenium host
+          name: Install chromium and enable headless mode
           command: |
-            wget https://selenium-release.storage.googleapis.com/2.44/selenium-server-standalone-2.44.0.jar
-
-      - run:
-          name: Run standalone selenium host
-          command: |
-            java -jar selenium-server-standalone-2.44.0.jar
-          background: true
+            wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add - && \
+            echo "deb http://dl.google.com/linux/chrome/deb/ stable main" > /etc/apt/sources.list.d/google.list && \
+            apt-get update && \
+            apt-get install -y google-chrome-stable xvfb && \
+            rm -rf /var/lib/apt/lists/*
 
       # Download and cache dependencies
       - restore_cache:
