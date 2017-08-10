@@ -5,6 +5,9 @@ APC: Angular, Protractor, Cucumber
 
 Demonstrates testing of an [Angular][1] app with [Protractor][2] and [Cucumber][3].
 
+[![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovateapp.com/)
+
+
 ```bash
 $ yarn e2e -- --baseUrl https://angular.io
 ```
