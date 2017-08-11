@@ -30,7 +30,7 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
 
       # run tests!
-      - run: xvfb-run -a yarn e2e
+      - run: xvfb-run -a yarn ci:e2e
 
       # run deployments for git tags
       - deploy:
