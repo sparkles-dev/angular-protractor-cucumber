@@ -21,6 +21,7 @@
   },
   "scripts": {
     "pree2e": "webdriver-manager update",
-    "e2e": "protractor"
+    "e2e": "protractor",
+    "ci:e2e": "yarn e2e -- --baseUrl https://angular.io"
   }
 }

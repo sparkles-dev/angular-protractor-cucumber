@@ -6,7 +6,10 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/node:latest
+      # specify the version you desire here
+      # - image: circleci/node:latest
+      - image: angular/ngcontainer:latest
+
     working_directory: ~/repo
 
     steps:
@@ -27,7 +30,7 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
 
       # run tests!
-      - run: yarn e2e
+      - run: xvfb-run -a yarn ci:e2e
 
       # run deployments for git tags
       - deploy:
