@@ -3,10 +3,10 @@ APC: Angular, Protractor, Cucumber
 
 > Feature-driven end-to-end testing.
 
-Demonstrates testing of an [Angular][1] app with [Protractor][2] and [Cucumber][3].
-
+[![CircleCI](https://circleci.com/gh/spektrakel-blog/angular-protractor-cucumber/tree/master.svg?style=svg)](https://circleci.com/gh/spektrakel-blog/angular-protractor-cucumber/tree/master)
 [![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovateapp.com/)
 
+Demonstrates testing of an [Angular][1] app with [Protractor][2] and [Cucumber][3].
 
 ```bash
 $ yarn e2e -- --baseUrl https://angular.io
