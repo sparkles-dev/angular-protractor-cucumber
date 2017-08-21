@@ -32,8 +32,6 @@ exports.config = {
     strict: true,
     // <string[]> (type[:path]) specify the output format, optionally supply PATH to redirect formatter output (repeatable)
     format: [
-      'pretty',
-      'pretty:reports/summary.txt',
       'json:reports/summary.json'
     ],
     // <boolean> invoke formatters without executing steps
