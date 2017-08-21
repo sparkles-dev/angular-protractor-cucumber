@@ -12,7 +12,7 @@ defineSupportCode(({Given, When, Then, Before}) => {
   Given('I am on the angular.io site',
     () => app.navigateTo());
 
-  When('I type "{term}" into the search input field',
+  When('I type "{string}" into the search input field',
     (text: string) => app.enterSearchInput(text));
 
   Then('I should see some results in the search overlay',
