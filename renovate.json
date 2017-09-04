@@ -7,6 +7,21 @@
       "packagePattern": "^@angular\/.*",
       "groupName": "angular",
       "pinVersions": false
+    },
+    {
+      "packagePattern": "^jasmine.*",
+      "groupName": "jasmine",
+      "pinVersions": false
+    },
+    {
+      "packagePattern": "^karma.*",
+      "groupName": "karma",
+      "pinVersions": false
+    },
+    {
+      "packagePattern": "^protractor.*",
+      "groupName": "protractor",
+      "pinVersions": false
     }
   ]
 }
