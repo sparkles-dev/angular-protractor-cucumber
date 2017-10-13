@@ -370,8 +370,8 @@ error-stack-parser@^2.0.1:
     stackframe "^1.0.3"
 
 es5-ext@^0.10.14, es5-ext@^0.10.9, es5-ext@~0.10.14, es5-ext@~0.10.2:
-  version "0.10.33"
-  resolved "https://registry.yarnpkg.com/es5-ext/-/es5-ext-0.10.33.tgz#f5db913c35f67836d5bfc03535bec83cde34ea03"
+  version "0.10.34"
+  resolved "https://registry.yarnpkg.com/es5-ext/-/es5-ext-0.10.34.tgz#e497a7bb662e6689623ee79fe9a8d8144717287e"
   dependencies:
     es6-iterator "~2.0.1"
     es6-symbol "~3.1.1"
