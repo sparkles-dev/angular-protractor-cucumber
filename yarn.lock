@@ -2,10 +2,6 @@
 # yarn lockfile v1
 
 
-"@types/arrify@^1.0.1":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@types/arrify/-/arrify-1.0.2.tgz#4a6856b9bfd4713c781df95349c6b15db60d4de1"
-
 "@types/chai@^4.0.1":
   version "4.0.4"
   resolved "https://registry.yarnpkg.com/@types/chai/-/chai-4.0.4.tgz#fe86315d9a66827feeb16f73bc954688ec950e18"
@@ -13,24 +9,6 @@
 "@types/cucumber@^3.1.0":
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/@types/cucumber/-/cucumber-3.1.0.tgz#7ce7b8cab26401e53e0f251a2ba6b163098c7eb6"
-
-"@types/diff@^3.2.1":
-  version "3.2.2"
-  resolved "https://registry.yarnpkg.com/@types/diff/-/diff-3.2.2.tgz#4d6f45537322a7a420d353a0939513c7e96d14a6"
-
-"@types/minimist@^1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@types/minimist/-/minimist-1.2.0.tgz#69a23a3ad29caf0097f06eda59b361ee2f0639f6"
-
-"@types/mkdirp@^0.5.0":
-  version "0.5.2"
-  resolved "https://registry.yarnpkg.com/@types/mkdirp/-/mkdirp-0.5.2.tgz#503aacfe5cc2703d5484326b1b27efa67a339c1f"
-  dependencies:
-    "@types/node" "*"
-
-"@types/node@*", "@types/node@^8.0.27":
-  version "8.0.57"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-8.0.57.tgz#e5d8b4dc112763e35cfc51988f4f38da3c486d99"
 
 "@types/node@^6.0.46":
   version "6.0.90"
@@ -43,28 +21,6 @@
 "@types/selenium-webdriver@^2.53.35", "@types/selenium-webdriver@~2.53.39":
   version "2.53.42"
   resolved "https://registry.yarnpkg.com/@types/selenium-webdriver/-/selenium-webdriver-2.53.42.tgz#74cb77fb6052edaff2a8984ddafd88d419f25cac"
-
-"@types/source-map-support@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@types/source-map-support/-/source-map-support-0.4.0.tgz#a62a1866614af68c888173c001481f242aaf148b"
-  dependencies:
-    "@types/node" "*"
-
-"@types/strip-bom@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@types/strip-bom/-/strip-bom-3.0.0.tgz#14a8ec3956c2e81edb7520790aecf21c290aebd2"
-
-"@types/strip-json-comments@0.0.30":
-  version "0.0.30"
-  resolved "https://registry.yarnpkg.com/@types/strip-json-comments/-/strip-json-comments-0.0.30.tgz#9aa30c04db212a9a0649d6ae6fd50accc40748a1"
-
-"@types/v8flags@types/npm-v8flags#de224ae1cd5fd7dbb4e7158a6cc7a29e5315930d":
-  version "2.0.0"
-  resolved "https://codeload.github.com/types/npm-v8flags/tar.gz/de224ae1cd5fd7dbb4e7158a6cc7a29e5315930d"
-
-"@types/yn@types/npm-yn#ca75f6c82940fae6a06fb41d2d37a6aa9b4ea8e9":
-  version "2.0.0"
-  resolved "https://codeload.github.com/types/npm-yn/tar.gz/ca75f6c82940fae6a06fb41d2d37a6aa9b4ea8e9"
 
 adm-zip@0.4.4:
   version "0.4.4"
@@ -559,12 +515,6 @@ hoek@4.x.x:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/hoek/-/hoek-4.2.0.tgz#72d9d0754f7fe25ca2d01ad8f8f9a9449a89526d"
 
-homedir-polyfill@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/homedir-polyfill/-/homedir-polyfill-1.0.1.tgz#4c2bbc8a758998feebf5ed68580f76d46768b4bc"
-  dependencies:
-    parse-passwd "^1.0.0"
-
 http-signature@~1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/http-signature/-/http-signature-1.2.0.tgz#9aecd925114772f3d95b65a60abb8f7c18fbace1"
@@ -800,10 +750,6 @@ pako@~1.0.2:
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/pako/-/pako-1.0.6.tgz#0101211baa70c4bca4a0f63f2206e97b7dfaf258"
 
-parse-passwd@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/parse-passwd/-/parse-passwd-1.0.0.tgz#6d5b934a456993b23d37f40a382d6f1666a8e5c6"
-
 path-is-absolute@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/path-is-absolute/-/path-is-absolute-1.0.1.tgz#174b9268735534ffbc7ace6bf53a5a9e1b5c5f5f"
@@ -1000,9 +946,9 @@ sntp@2.x.x:
   dependencies:
     hoek "4.x.x"
 
-source-map-support@^0.5.0:
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.5.0.tgz#2018a7ad2bdf8faf2691e5fddab26bed5a2bacab"
+source-map-support@^0.5.3:
+  version "0.5.3"
+  resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.5.3.tgz#2b3d5fff298cfa4d1afd7d4352d569e9a0158e76"
   dependencies:
     source-map "^0.6.0"
 
@@ -1085,14 +1031,6 @@ strip-ansi@^3.0.0:
   dependencies:
     ansi-regex "^2.0.0"
 
-strip-bom@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/strip-bom/-/strip-bom-3.0.0.tgz#2334c18e9c759f7bdd56fdef7e9ae3d588e68ed3"
-
-strip-json-comments@^2.0.0:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/strip-json-comments/-/strip-json-comments-2.0.1.tgz#3c531942e908c2697c0ec344858c286c7ca0a60a"
-
 supports-color@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-2.0.0.tgz#535d045ce6b6363fa40117084629995e9df324c7"
@@ -1144,37 +1082,18 @@ tough-cookie@~2.3.3:
   dependencies:
     punycode "^1.4.1"
 
-ts-node@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/ts-node/-/ts-node-4.0.0.tgz#75f3f8cffbbc00c2d793c2d1686173f78fcbcd8f"
+ts-node@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/ts-node/-/ts-node-5.0.0.tgz#9aa573889ad7949411f972981c209e064705e36f"
   dependencies:
-    "@types/arrify" "^1.0.1"
-    "@types/diff" "^3.2.1"
-    "@types/minimist" "^1.2.0"
-    "@types/mkdirp" "^0.5.0"
-    "@types/node" "^8.0.27"
-    "@types/source-map-support" "^0.4.0"
-    "@types/v8flags" types/npm-v8flags#de224ae1cd5fd7dbb4e7158a6cc7a29e5315930d
-    "@types/yn" types/npm-yn#ca75f6c82940fae6a06fb41d2d37a6aa9b4ea8e9
     arrify "^1.0.0"
     chalk "^2.3.0"
     diff "^3.1.0"
     make-error "^1.1.1"
     minimist "^1.2.0"
     mkdirp "^0.5.1"
-    source-map-support "^0.5.0"
-    tsconfig "^7.0.0"
-    v8flags "^3.0.0"
+    source-map-support "^0.5.3"
     yn "^2.0.0"
-
-tsconfig@^7.0.0:
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/tsconfig/-/tsconfig-7.0.0.tgz#84538875a4dc216e5c4a5432b3a4dec3d54e91b7"
-  dependencies:
-    "@types/strip-bom" "^3.0.0"
-    "@types/strip-json-comments" "0.0.30"
-    strip-bom "^3.0.0"
-    strip-json-comments "^2.0.0"
 
 tunnel-agent@^0.6.0:
   version "0.6.0"
@@ -1213,12 +1132,6 @@ util-deprecate@~1.0.1:
 uuid@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.1.0.tgz#3dd3d3e790abc24d7b0d3a034ffababe28ebbc04"
-
-v8flags@^3.0.0:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/v8flags/-/v8flags-3.0.1.tgz#dce8fc379c17d9f2c9e9ed78d89ce00052b1b76b"
-  dependencies:
-    homedir-polyfill "^1.0.1"
 
 verror@1.10.0, verror@^1.9.0:
   version "1.10.0"
