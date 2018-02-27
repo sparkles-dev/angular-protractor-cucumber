@@ -6,9 +6,9 @@
   version "4.0.4"
   resolved "https://registry.yarnpkg.com/@types/chai/-/chai-4.0.4.tgz#fe86315d9a66827feeb16f73bc954688ec950e18"
 
-"@types/cucumber@^3.1.0":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@types/cucumber/-/cucumber-3.1.0.tgz#7ce7b8cab26401e53e0f251a2ba6b163098c7eb6"
+"@types/cucumber@^4.0.0":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@types/cucumber/-/cucumber-4.0.1.tgz#3e588a3fa510af7ad3dbe753f1c9ea818e984f85"
 
 "@types/node@^6.0.46":
   version "6.0.90"
@@ -86,9 +86,9 @@ assert-plus@1.0.0, assert-plus@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/assert-plus/-/assert-plus-1.0.0.tgz#f12e0f3c5d77b0b1cdd9146942e4e96c1e4dd525"
 
-assertion-error-formatter@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/assertion-error-formatter/-/assertion-error-formatter-2.0.0.tgz#17a24289cc8440889b54318e6d1187ebee2d5494"
+assertion-error-formatter@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/assertion-error-formatter/-/assertion-error-formatter-2.0.1.tgz#6bbdffaec8e2fa9e2b0eb158bfe353132d7c0a9b"
   dependencies:
     diff "^3.0.0"
     pad-right "^0.2.2"
@@ -257,28 +257,28 @@ cryptiles@3.x.x:
   dependencies:
     boom "5.x.x"
 
-cucumber-expressions@^5.0.0:
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/cucumber-expressions/-/cucumber-expressions-5.0.2.tgz#f4e03c2698bd43e92011a055d9c4ce57718b91b0"
+cucumber-expressions@^5.0.7:
+  version "5.0.13"
+  resolved "https://registry.yarnpkg.com/cucumber-expressions/-/cucumber-expressions-5.0.13.tgz#f174597dae6d2f0121294ac2ea65443249cf1587"
   dependencies:
     becke-ch--regex--s0-0-v1--base--pl--lib "^1.2.0"
 
-cucumber-tag-expressions@^1.0.0:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/cucumber-tag-expressions/-/cucumber-tag-expressions-1.0.1.tgz#d6d3c43180a03f5fb4fc957fe1382ddce5cb9ac8"
+cucumber-tag-expressions@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/cucumber-tag-expressions/-/cucumber-tag-expressions-1.1.1.tgz#7f5c7b70009bc2b666591bfe64854578bedee85a"
 
-cucumber@^3.0.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/cucumber/-/cucumber-3.1.0.tgz#13886bce87e9018ecb57999bb00c03a1bfa58d5d"
+cucumber@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/cucumber/-/cucumber-4.0.0.tgz#09f078b852d817c8f818737d0dcc34d40f31534f"
   dependencies:
-    assertion-error-formatter "^2.0.0"
+    assertion-error-formatter "^2.0.1"
     babel-runtime "^6.11.6"
     bluebird "^3.4.1"
     cli-table "^0.3.1"
     colors "^1.1.2"
     commander "^2.9.0"
-    cucumber-expressions "^5.0.0"
-    cucumber-tag-expressions "^1.0.0"
+    cucumber-expressions "^5.0.7"
+    cucumber-tag-expressions "^1.1.1"
     duration "^0.2.0"
     escape-string-regexp "^1.0.5"
     figures "2.0.0"
@@ -287,7 +287,7 @@ cucumber@^3.0.0:
     indent-string "^3.1.0"
     is-generator "^1.0.2"
     is-stream "^1.1.0"
-    lodash "^4.0.0"
+    lodash "^4.17.4"
     mz "^2.4.0"
     progress "^2.0.0"
     resolve "^1.3.3"
@@ -647,9 +647,9 @@ lie@~3.1.0:
   dependencies:
     immediate "~3.0.5"
 
-lodash@^4.0.0:
-  version "4.17.4"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
+lodash@^4.17.4:
+  version "4.17.5"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.5.tgz#99a92d65c0272debe8c96b6057bc8fbfa3bed511"
 
 lower-case@^1.1.1:
   version "1.1.4"

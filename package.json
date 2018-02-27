@@ -11,9 +11,9 @@
   "license": "MIT",
   "devDependencies": {
     "@types/chai": "^4.0.1",
-    "@types/cucumber": "^3.1.0",
+    "@types/cucumber": "^4.0.0",
     "chai": "^4.1.0",
-    "cucumber": "^3.0.0",
+    "cucumber": "^4.0.0",
     "protractor": "^5.1.2",
     "protractor-cucumber-framework": "^4.0.0",
     "ts-node": "^5.0.0",
