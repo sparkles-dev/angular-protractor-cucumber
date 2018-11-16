@@ -8,7 +8,7 @@ jobs:
     docker:
       # specify the version you desire here
       # - image: circleci/node:latest
-      - image: angular/ngcontainer:latest@sha256:b4c755e59cef8656d43885fc70c8cbd91ec802a614eb08ecc96b4e9e3acd1efd
+      - image: angular/ngcontainer:latest@sha256:ee4a9cd6d4ece01ffa8cfbf4be19610ac1372405a573ed9227935d7ae3f68d23
 
     working_directory: ~/repo
 
